@@ -36,7 +36,7 @@ returns a new array, leaving the kittens array unchanged:*/
 
 /*prependKitten(name) prepends a kitten to the kittens array
 and returns a new array, leaving the kittens array unchanged:*/
-var kittens = ['Milo', 'Otis', 'Garfield']
+//var kittens = ['Milo', 'Otis', 'Garfield']
 function prependKitten(name){
   var newKittens = new Array(kittens);
   newKittens.unshift(name);
@@ -44,7 +44,7 @@ function prependKitten(name){
   console.log(newKittens);
 
 }
-prependKitten('Arnold');
+//prependKitten('Arnold');
 
 /*removeLastKitten() removes the last kitten in the kittens array and
 returns a new array, leaving the kittens array unchanged*/
