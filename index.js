@@ -17,8 +17,8 @@ destructivelyRemoveLastKitten = function(){
 }
 */
 
-/*removeLastKitten() removes the last kitten in the kittens array and returns a ne
-w array, leaving the kittens array unchanged*/
+/*removeLastKitten() removes the last kitten in the kittens array and
+returns a new array, leaving the kittens array unchanged*/
 function removeLastKitten(){
 
 }
