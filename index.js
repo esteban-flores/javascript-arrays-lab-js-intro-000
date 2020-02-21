@@ -18,8 +18,8 @@ destructivelyRemoveLastKitten = function(){
 */
 
 
-/*Arrays removeFirstKitten() removes the first kitten from the kittens array and returns
-a new array, leaving the kittens array unchanged*/
+/*Arrays removeFirstKitten() removes the first kitten from the kittens
+array and returnsa new array, leaving the kittens array unchanged*/
 removeFirstKitten = function(){
 
 }
