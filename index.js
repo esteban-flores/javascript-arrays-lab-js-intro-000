@@ -39,7 +39,7 @@ and returns a new array, leaving the kittens array unchanged:*/
 var kittens = ['Milo', 'Otis', 'Garfield']
 function prependKitten(name){
   var newKittens = [name];
-  newKittens.unshift(name);
+  newKittens = newKittens.concat(kittens);
   //console.log(kittens);
   //console.log(newKittens);
   return newKittens;
