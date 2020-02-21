@@ -13,12 +13,34 @@ function destructivelyPrependKitten(name){
   return kittens;
 }
 
-/*Arrays destructivelyRemoveLastKitten() removes the last kitten from
+/*destructivelyRemoveLastKitten() removes the last kitten from
 the kittens array:*/
 function destructivelyRemoveLastKitten(){
   kittens.pop();
   return kittens;
 }
+
+/*destructivelyRemoveFirstKitten() removes the First kitten from
+the kittens array*/
+
+function destructivelyRemoveFirstKitten(){
+
+}
+
+/*appendKitten(name) appends a kitten to the kittens array and
+returns a new array, leaving the kittens array unchanged:*/
+
+function appendKitten(name){
+
+}
+
+/*prependKitten(name) prepends a kitten to the kittens array
+and returns a new array, leaving the kittens array unchanged:*/
+function prependKitten(name){
+
+}
+
+
 
 
 /*removeLastKitten() removes the last kitten in the kittens array and
