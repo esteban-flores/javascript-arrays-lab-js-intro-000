@@ -32,6 +32,8 @@ returns a new array, leaving the kittens array unchanged:*/
 var kittens = ['Milo', 'Otis', 'Garfield'];
 function appendKitten(name){
   var newKittens = [name];
+  newKittens = kittens.concat(newKittens);
+  return newKittens;
 }
 appendKitten('Broom');
 
