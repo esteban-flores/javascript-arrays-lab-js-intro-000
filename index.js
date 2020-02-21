@@ -30,7 +30,7 @@ function destructivelyRemoveFirstKitten(){
 /*appendKitten(name) appends a kitten to the kittens array and
 returns a new array, leaving the kittens array unchanged:*/
 function appendKitten(name){
-  var newKittens = kittens.unshift(name);
+  var newKittens = kittens.push(name);
   return newKittens;
 }
 
