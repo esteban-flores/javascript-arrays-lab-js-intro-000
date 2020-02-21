@@ -36,6 +36,7 @@ returns a new array, leaving the kittens array unchanged:*/
 
 /*prependKitten(name) prepends a kitten to the kittens array
 and returns a new array, leaving the kittens array unchanged:*/
+var kittens = ['Milo', 'Otis', 'Garfield']
 function prependKitten(name){
 
 }
