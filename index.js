@@ -6,7 +6,7 @@ function destructivelyAppendKitten(name){
   return kittens;
 }
 
-/*destructivelyPrependKitten(name) prepends a kitten to the beginning 
+/*destructivelyPrependKitten(name) prepends a kitten to the beginning
 of the kittens array*/
 function destructivelyPrependKitten(name){
   kittens.unshift(name);
