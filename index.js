@@ -13,7 +13,8 @@ function destructivelyPrependKitten(name){
   return kittens;
 }
 
-/*Arrays destructivelyRemoveLastKitten() removes the last kitten from the kittens array:*/
+/*Arrays destructivelyRemoveLastKitten() removes the last kitten from
+the kittens array:*/
 function destructivelyRemoveLastKitten(){
   kittens.pop();
   return kittens;
