@@ -42,6 +42,7 @@ function prependKitten(name){
   newKittens.unshift(name);
   //console.log(kittens);
   console.log(newKittens);
+  return newKittens;
 
 }
 //prependKitten('Arnold');
