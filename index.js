@@ -20,7 +20,7 @@ destructivelyRemoveLastKitten = function(){
 /*removeLastKitten() removes the last kitten in the kittens array and
 returns a new array, leaving the kittens array unchanged*/
 function removeLastKitten(){
-  var newKittens = kittens.pop();
+  var newKittens = kittens.slice(1, kittens.length-1);
   return newKittens;
 }
 
