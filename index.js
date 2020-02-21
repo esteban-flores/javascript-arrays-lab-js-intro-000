@@ -31,6 +31,7 @@ function destructivelyRemoveFirstKitten(){
 returns a new array, leaving the kittens array unchanged:*/
 function appendKitten(name){
   var newKittens = kittens.unshift(name);
+  return newKittens;
 }
 
 /*prependKitten(name) prepends a kitten to the kittens array
