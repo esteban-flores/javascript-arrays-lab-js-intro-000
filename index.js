@@ -40,7 +40,7 @@ var kittens = ['Milo', 'Otis', 'Garfield']
 function prependKitten(name){
   var newKittens = kittens;
   newKittens.unshift(name);
-  console.log(kittens);
+  //console.log(kittens);
   console.log(newKittens);
 
 }
