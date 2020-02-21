@@ -40,9 +40,6 @@ function prependKitten(name){
 
 }
 
-
-
-
 /*removeLastKitten() removes the last kitten in the kittens array and
 returns a new array, leaving the kittens array unchanged*/
 function removeLastKitten(){
