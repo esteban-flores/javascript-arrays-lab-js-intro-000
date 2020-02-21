@@ -41,7 +41,7 @@ function prependKitten(name){
   var newKittens = [name];
   newKittens.unshift(name);
   //console.log(kittens);
-  console.log(newKittens);
+  //console.log(newKittens);
   return newKittens;
 
 }
