@@ -29,6 +29,7 @@ function destructivelyRemoveFirstKitten(){
 
 /*appendKitten(name) appends a kitten to the kittens array and
 returns a new array, leaving the kittens array unchanged:*/
+var kittens = ['Milo', 'Otis', 'Garfield'];
 
 
 
@@ -36,16 +37,12 @@ returns a new array, leaving the kittens array unchanged:*/
 
 /*prependKitten(name) prepends a kitten to the kittens array
 and returns a new array, leaving the kittens array unchanged:*/
-var kittens = ['Milo', 'Otis', 'Garfield']
+
 function prependKitten(name){
   var newKittens = [name];
   newKittens = newKittens.concat(kittens);
-  //console.log(kittens);
-  //console.log(newKittens);
   return newKittens;
-
 }
-prependKitten('Arnold');
 
 /*removeLastKitten() removes the last kitten in the kittens array and
 returns a new array, leaving the kittens array unchanged*/
