@@ -38,7 +38,8 @@ returns a new array, leaving the kittens array unchanged:*/
 and returns a new array, leaving the kittens array unchanged:*/
 var kittens = ['Milo', 'Otis', 'Garfield']
 function prependKitten(name){
-  var newKittens = kittens.unshift(name);
+  var newKittens = kittens;
+  newKittens.unshift(name);
   console.log(kittens);
   console.log(newKittens);
 
