@@ -20,6 +20,7 @@ destructivelyRemoveLastKitten = function(){
 
 /*Arrays removeFirstKitten() removes the first kitten from the kittens
 array and returns a new array, leaving the kittens array unchanged*/
+var kittens = ['Milo', 'Otis', 'Garfield'];
 removeFirstKitten = function(){
   var newKittens = kittens.slice(1);
   return newKittens;
