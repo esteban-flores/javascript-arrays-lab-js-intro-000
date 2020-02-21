@@ -35,7 +35,7 @@ function appendKitten(name){
   newKittens = kittens.concat(newKittens.push(name));
   return newKittens;
 }
-appendKitten("Broom");
+appendKitten('Broom');
 /*prependKitten(name) prepends a kitten to the kittens array
 and returns a new array, leaving the kittens array unchanged:*/
 function prependKitten(name){
