@@ -21,7 +21,7 @@ destructivelyRemoveLastKitten = function(){
 returns a new array, leaving the kittens array unchanged*/
 var kittens = ['Milo', 'Otis', 'Garfield']
 function removeLastKitten(){
-  var newKittens = kittens.slice(1, kittens.length-1);
+  var newKittens = kittens.slice(0, kittens.length-1);
   return newKittens;
 }
 
